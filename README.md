@@ -63,8 +63,22 @@ now click scan and let it run its magic. While its running look at your device t
 
 (it may take awhile...)
 
-## Nmap options
+Once you feel like you have enough hosts pinged you can stop the scan whenever you want. Host likely you are going to find them all right off the bat due to auto addressing. My scan resulted in 2 hits, my PC, laptop, roku TV, and xbox. I know that becuase I turned them on for this example.
 
+![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/91909c40-235e-44e8-8833-35fd39ae5e0e)
+
+Now that we have these addresses. Lets intense scan them. An intense scan is a scan that not only tells us basic ip information but things about the computer like OS, open ports, verison, and so on...
+An intense scan is specified by this command. 
+```
+nmap -T4 -A -v
+```
+
+Im going to run a intense scan on my roku TV. 
+![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/9f77a05b-f88f-48a1-a289-860602032710)
+
+
+## Nmap options
+[options](https://nmap.org/book/man-briefoptions.html)
 
 ## Windows (Zenmap) basic tutorial
 - port scanning
