@@ -33,6 +33,19 @@ and verify with
 namp --version
 ```
 
+## Nmap options
+
+
+## Windows (Zenmap) basic tutorial
+- port scanning
+- anything else i can do legally
+
+## Linux Basic tutorial
+- port scanning
+- anything else i can do legally
+
+## Advanced section
+
 
 
 
