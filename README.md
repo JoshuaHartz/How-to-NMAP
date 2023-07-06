@@ -19,7 +19,20 @@ Once finished downloading type nmap in the windows search bar and run. You will 
 ![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/d8bed309-c47a-4d9a-9a2e-51275208d37e)
 
 
-### Linux
+### Linux (ubuntu)
+
+NOTE: Kali linux should already have nmap installed
+
+To install Nmap for linux run these commands
+
+```
+sudo apt-get install nmap
+```
+and verify with 
+```
+namp --version
+```
+
 
 
 
