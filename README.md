@@ -43,6 +43,7 @@ Which is exactly what Ill do.
 First we have to do some research about our network, mainly finding our ip address. In windows you can do this by running the command ipconfig in a terminal (WIN + R and then type cmd).
 
 It will look like this.
+
 ![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/dca7a25c-d80b-4b82-8eef-3734bd577202)
 
 We can see that our default gateway is 172.20.1.1 which I like to use as a start point since we are somewhat in the dark here on how the network is setup. 
@@ -75,6 +76,12 @@ nmap -T4 -A -v
 
 Im going to run a intense scan on my roku TV. 
 ![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/9f77a05b-f88f-48a1-a289-860602032710)
+
+here are the results:
+
+![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/5ef44fbd-521c-47f5-94ec-6997acc941ca)
+
+It shows us: open ports, its traceroute, TCP/IP fingerprint, OS (if it can), and MAC address. 
 
 
 ## Nmap options
