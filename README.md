@@ -69,7 +69,7 @@ Once you feel like enough hosts have been pinged, you can stop the scan whenever
 ![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/91909c40-235e-44e8-8833-35fd39ae5e0e)
 
 Now that we have these addresses. Let's intense scan them. An intense scan is a scan that not only tells us basic ip information but things about the computer like OS, open ports, version, and so on...
-An intense scan is specified by this command. 
+This command specifies an intense scan. 
 ```
 nmap -T4 -A -v
 ```
@@ -83,6 +83,7 @@ here are the results:
 
 It shows us: open ports, its traceroute, TCP/IP fingerprint, OS (if it can), and MAC address. 
 
+That is only an example of what Nmap can do. There are many other options and ways to go about using Nmap. For other scan methods, look up the options you want to use and follow the same process.  
 
 ## Nmap options
 [options](https://nmap.org/book/man-briefoptions.html)
