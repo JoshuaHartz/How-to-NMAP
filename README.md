@@ -107,6 +107,17 @@ nmap 172.20.2.137 > nmapout.txt
 ```
 This will send all the standard Nmap output to a file called nmapout.txt.
 
+Another example:
+
+```
+nmap -T4 -A -v -Pn 172.20.14.74
+```
+Since I'm running Ubuntu out of a virtual machine, I encountered an issue where it would recognize the host. It wouldn't allow ping packets to go through, so explicitly specifying -Pn (treat all hosts as online) fixes that issue. 
+Here is what results:
+
+![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/726aa83e-0205-4525-b872-18e581a0fe13)
+
+
 ## Advanced section
 
 Something you should 100% do is study what each scan looks like under Wireshark. Not only will it benefit you if you go into specific fields of cybersecurity, but it can also be highly beneficial in the Network Traffic Analysis section in NCL. Sometimes they like to have you look through captures of different types of port scans to find various artifacts and details that pertain to that scan. 
