@@ -97,7 +97,7 @@ nmap <target>
 
 Using Nmap on Linux may be different visually, but all the commands and options are the same.
 
-For example, if I run a scan on my laptop using Nmap in the command line, it will still look the same.
+For example, a simple port scan on my laptop: 
 ```
 nmap 172.20.2.137
 ```
