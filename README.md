@@ -88,13 +88,23 @@ That is only an example of what Nmap can do. There are many other options and wa
 ## Nmap options
 [options](https://nmap.org/book/man-briefoptions.html)
 
-## Windows (Zenmap) basic tutorial
-- port scanning
-- anything else I can do legally
+note: a simple port scan doesn't require any options and can just be done with the following:
+```
+nmap <target>
+```
 
 ## Linux Basic tutorial
-- port scanning
-- anything else I can do legally
+
+Using Nmap on Linux may be different visually, but all the commands and options are the same.
+
+For example: if I were to run a scan on my laptop using Nmap in the command line, it will still look the same.
+```
+nmap 172.20.2.137
+```
+However, you may want to redirect the Nmap output to a file for longevity so you don't have to sit through a scan every time you need the results. Can be done with this:
+```
+nmap 172.20.2.137 > nmapout.txt
+```
 
 ## Advanced section
 
