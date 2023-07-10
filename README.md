@@ -97,7 +97,7 @@ nmap <target>
 
 Using Nmap on Linux may be different visually, but all the commands and options are the same.
 
-For example: if I were to run a scan on my laptop using Nmap in the command line, it will still look the same.
+For example, if I run a scan on my laptop using Nmap in the command line, it will still look the same.
 ```
 nmap 172.20.2.137
 ```
@@ -108,6 +108,7 @@ nmap 172.20.2.137 > nmapout.txt
 
 ## Advanced section
 
+Something you should 100% do is study what each scan looks like under Wireshark. Not only will it benefit you if you go into specific fields of cybersecurity, but it can also be highly beneficial in the Network Traffic Analysis section in NCL. Sometimes they like to have you look through captures of different types of port scans. 
 
 
 
