@@ -36,7 +36,7 @@ nmap --version
 
 Before we begin, nmap is a scanning tool that can quickly create unwanted network traffic. If you are going to use it to scan and do recon, I encourage you to do it in your own closed environment.
 
-For my usage, I'm repurposing my old laptop as my target host. If you can do the same, please install Wireshark on that device to track and see the packets in real time. I will be using the Windows version (Zenmap) for simplicity and because it's very user-friendly. However, we do have to go over some preliminary things. Your computer's current state should only be able to scan and detect its immediate network traffic. For example, my apartment complex segments its internet by apartment, so I can only scan and listen to my apartment's devices.
+For my usage, I'm repurposing my old laptop as my target host. If you can do the same, please install Wireshark on that device to track and see the packets in real time. I will use the Windows version (Zenmap) for simplicity and because it's very user-friendly. However, we do have to go over some preliminary things. Your computer's current state should only be able to scan and detect its immediate network traffic. For example, my apartment complex segments its internet by apartment, so I can only scan and listen to my apartment's devices.
 
 Which is precisely what I'll do. 
 
@@ -60,7 +60,7 @@ If you look back to see the ipconfig listing, our subnet mask is 255.255.0.0, wh
 ![image](https://github.com/JoshuaHartz/How-to-NMAP/assets/102620766/266bedd5-8652-419c-ae94-c05a2f9e3f3f)
 
 
-now click scan and let it run its magic. While it's running, look at your device that has wireshark open, you should see ARP packets flooding in asking for who has X address tell Y. This is Nmap checking for any valid hosts. I encourage you to do this on your own segmented network.
+now click scan and let it run its magic. While it's running, look at your device with wireshark open, you should see ARP packets flooding in asking for who has X address tell Y. This is Nmap checking for any valid hosts. I encourage you to do this on your own segmented network.
 
 (it may take a while...)
 
@@ -105,6 +105,7 @@ However, you may want to redirect the Nmap output to a file for longevity so you
 ```
 nmap 172.20.2.137 > nmapout.txt
 ```
+This will send all the standard Nmap output to a file called nmapout.txt.
 
 ## Advanced section
 
