@@ -108,7 +108,7 @@ nmap 172.20.2.137 > nmapout.txt
 
 ## Advanced section
 
-Something you should 100% do is study what each scan looks like under Wireshark. Not only will it benefit you if you go into specific fields of cybersecurity, but it can also be highly beneficial in the Network Traffic Analysis section in NCL. Sometimes they like to have you look through captures of different types of port scans. 
+Something you should 100% do is study what each scan looks like under Wireshark. Not only will it benefit you if you go into specific fields of cybersecurity, but it can also be highly beneficial in the Network Traffic Analysis section in NCL. Sometimes they like to have you look through captures of different types of port scans to find various artifacts and details that pertain to that scan. 
 
 
 
