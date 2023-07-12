@@ -86,7 +86,7 @@ It shows us: open ports, its traceroute, TCP/IP fingerprint, OS (if it can), and
 That is only an example of what Nmap can do. There are many other options and ways to go about using Nmap. For other scan methods, look up the options you want to use and follow the same process.  
 
 ## Nmap options
-[options](https://nmap.org/book/man-briefoptions.html)
+[full list of options](https://nmap.org/book/man-briefoptions.html)
 
 Options to know:
 
